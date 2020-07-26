@@ -1,0 +1,358 @@
+#main{
+    background: rgb(225, 224, 226);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px 520px 400px 400px 170px 90px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: rgb(225, 224, 226);
+}
+#nav-bar{
+    width: 100%;
+    height: 80px;
+    background: rgb(34, 34, 34);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+@media (max-width: 500px) {p {font-size: 10px;}}
+#header-img{
+    height: 120px;
+    padding-left: 100px;
+    position: relative;
+    bottom: 10px;
+}
+ul{
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+}
+li a{
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(219, 124, 0);
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+#div-1{
+    width: 100%;
+    background: rgb(225, 224, 226);
+    grid-area: 1/2/2/4;
+}
+#title{
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+hr{
+    width: 80%;
+}
+
+#div-2{
+    width: 100%;
+    background: rgb(225, 224, 226);
+    grid-area: 2/2/3/4;
+}
+#intro-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+}
+#img-1{
+    padding: 30px;
+    padding-right: 100px;
+}
+#three{
+    height: 50px;
+}
+#d1-text{
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 60%;
+}
+#it-1{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+#intro-2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+}
+#img-2{
+    padding: 30px;
+    padding-right: 100px;
+}
+#car{
+    height: 50px;
+}
+#d2-text{
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 60%;
+}
+#it-3{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+#intro-3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+}
+#img-3{
+    padding: 30px;
+    padding-right: 100px;
+}
+#cora{
+    height: 50px;
+}
+#d3-text{
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 60%;
+}
+#it-5{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+#div-3{
+    width: 100%;
+    background: rgb(225, 224, 226);
+    grid-area: 3/2/4/4;
+}
+#vid-frame{
+margin: 20px 20px;
+padding-left: 150px;
+}
+iframe{
+box-shadow: 0px 0px 7px -1px black;
+}
+
+#div-4{
+    width: 100%;
+    background: rgb(225, 224, 226);
+    grid-area: 4/2/5/4;
+}
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#box-1{
+    height: 300px;
+    width: 230px;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#b1div1{
+    background-color: rgb(83, 83, 83);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+#f1p1{
+    font-size: 22px;
+    color: rgb(243, 243, 243);
+}
+#b1div2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#f1p2{
+    font-size: 30px;
+}
+ol{
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+button{
+    font-family: 'Nunito', sans-serif; 
+    border-style: none;
+}
+#but1{
+    font-size: 15px;
+    height: 50px;
+    width: 50%;
+    background: rgb(238, 203, 2);
+    border-radius: 4%;
+    cursor: pointer;
+}
+#but1:hover{
+    background: darkorange;
+    transition: 0.3s;
+}
+#box-2{
+    height: 300px;
+    width: 230px;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#b2div1{
+    background-color: rgb(83, 83, 83);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+#f2p1{
+    font-size: 22px;
+    color: rgb(243, 243, 243);
+}
+#b2div2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#f2p2{
+    font-size: 30px;
+}
+#but2{
+    font-size: 15px;
+    height: 50px;
+    width: 50%;
+    background: rgb(238, 203, 2);
+    border-radius: 4%;
+    cursor: pointer;
+}
+#but2:hover{
+    background: darkorange;
+    transition: 0.3s;
+}
+
+#box-3{
+    height: 300px;
+    width: 230px;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#b3div1{
+    background-color: rgb(83, 83, 83);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+#f3p1{
+    font-size: 22px;
+    color: rgb(243, 243, 243);
+}
+#b3div2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+#f3p2{
+    font-size: 30px;
+}
+#but3{
+    font-size: 15px;
+    height: 50px;
+    width: 50%;
+    background: rgb(238, 203, 2);
+    border-radius: 4%;
+    cursor: pointer;
+}
+#but3:hover{
+    background: darkorange;
+    transition: 0.3s;
+}
+
+#div-5{
+    width: 100%;
+    background: rgb(225, 224, 226);
+    grid-area: 5/2/6/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div5p{
+    background: rgb(225, 224, 226);
+    padding-top: 20px;
+}
+#p1div5{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+input{
+    height: 35px;
+    width: 250px;
+}
+#button-div{
+    padding-top: 15px;
+    padding-left: 50px;
+}
+#submit{
+    font-size: 20px;
+    height: 40px;
+    width: 80%;
+    background: rgb(238, 203, 2);
+    border-radius: 4%;
+    cursor: pointer;
+    border-style: none;
+}
+#submit:hover{
+    background: darkorange;
+    transition: 0.3s;
+}
+#footer{
+    width: 100%;
+    background: rgb(34, 34, 34);
+    grid-area: 6/2/7/4;
+    display: grid;
+    grid-template-columns: minmax(50px 1fr);
+    grid-template-rows: auto;
+    justify-items: end;
+    align-items: center;
+}
+#div-footer{
+    padding-right: 20px;
+    position: relative;
+    top: 5px;
+}
+#contact{
+    padding-right: 10px;
+    color: rgb(219, 126, 12);
+}
+#ubic{
+    padding-right: 10px;
+    color: rgb(219, 126, 12);
+}
+#tyc{
+    color: rgb(219, 126, 12);
+
+}
+#cuack{
+    padding-right: 20px;
+    position: relative;
+    bottom: 15px;
+    color: rgb(238, 238, 238);
+}
